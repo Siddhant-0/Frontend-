@@ -1,11 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Card</title>
+    <style>
+      body {
+        height: 100vh;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .card {
+        box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+
+        margin: 5rem 0;
+        width: 400px;
+      }
+      
+
+      button {
+        padding: 10px;
+        cursor: pointer;
+      }
+
+      .text {
+        text-align: justify;
+        font-size: 1.5rem;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="card">
+      <img
+        src="https://assetsio.gnwcdn.com/cowboy-bebop-anime-characters.png?width=1200&height=900&fit=crop&quality=100&format=png&enable=upscale&auto=webp"
+        alt="Lizard"
+        width="100%"
+        style="object-fit: contain"
+      />
+
+      <div style="padding: 1rem">
+        <h3 style="font-size: 2rem">Lizard</h3>
+
+        <p class="text">
+          Lizards are a widespread group of squamate reptiles, with over 6,000
+          species, ranging across all continents except Antarctica
+        </p>
+
+        <div>
+          <button style="margin-right: 2rem">SHARE</button>
+          <button>LEARN MORE</button>
+        </div>
+      </div>
+    </section>
+  </body>
 </html>
